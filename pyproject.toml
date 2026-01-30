@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "audio-transcript"
+version = "0.1.0"
+description = "Audio transcription tool using Whisper models to convert audio to text"
+authors = ["Rick Chen <chenzhuo1005@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai-whisper = "^20231117"
+torch = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.0.0"
+ruff = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

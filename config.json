@@ -1,0 +1,7 @@
+{
+  "model": "large-v3",
+  "model_dir": "models",
+  "output_dir": "outputs",
+  "input_dir": "audio_files",
+  "device": "auto"
+}
